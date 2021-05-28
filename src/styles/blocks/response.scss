@@ -34,6 +34,12 @@
     @include testimonials-square($testimonials-square-size);
     margin-bottom: 28px;
     border-radius: 50%;
+    transition-duration: 300ms;
+  }
+
+  &__image:hover {
+    transform: scale(1.2);
+    box-shadow: 1px 3px 3px black;
   }
 
   &__name {
