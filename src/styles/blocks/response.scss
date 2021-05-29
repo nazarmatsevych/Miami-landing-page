@@ -38,8 +38,8 @@
   }
 
   &__image:hover {
-    transform: scale(1.2);
-    box-shadow: 1px 3px 3px black;
+    transform: scale(1.4);
+    border: 1px solid $blueColor;
   }
 
   &__name {
